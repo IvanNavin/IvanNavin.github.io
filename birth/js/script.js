@@ -36,5 +36,5 @@ function myFunc() {
   }
   var day = date.getDate();
   var resultDay = birth - date;
-  document.getElementById('hBirthdDay').innerHTML = resMonth + ' месяцев' ;
+  document.getElementById('hBirthdDay').innerHTML = resMonth + ' мес.' ;
 }
