@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Challange</title>
+</head>
+<body>
+	<div class="my_container">
+		<div class="my_head">
+			<h1>Select currency to exhange:</h1>
+		  <div class="select">
+		  	<span class="placeholder">USD</span>
+		  	<ul>
+		  	  <!-- <li data-value="USD">USD</li> -->
+		  	  <li data-value="EUR">EUR</li>
+		  	  <li data-value="RUB">RUB</li>
+		  	  <li data-value="GBP">GBP</li>
+		  	</ul>
+		  	<input type="hidden" name="changeme"/>
+		  </div>
+		</div> <!-- my_head -->
+
+		<div class="my_row">
+			<div class="block ethereum">
+				<div class="table">
+					<div class="table_row">
+						<div class="table_cell price">Price:</div>
+						<div class="table_cell price_coast">22 526.92</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell percent">Percent change</div>
+							<div class="table_cell switch">
+							  <!-- radio toggle -->
+							  <div class="toggle-border">
+					        <input type="checkbox" id="one" checked="checked" />
+					        <label for="one">
+					          <div class="handle"></div>
+					        </label>
+					      </div> 
+					      <!-- radio toggle -->
+							</div>
+						</div>
+					<div class="table_row">
+						<div class="table_cell p">Hour change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Day change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Week change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Month change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+				</div>
+			</div> <!-- first block Etherium -->
+
+			<div class="block litecoin">
+				<div class="table">
+					<div class="table_row">
+						<div class="table_cell price">Price:</div>
+						<div class="table_cell price_coast">22 526.92</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell percent">Percent change</div>
+							<div class="table_cell switch">
+							  <!-- radio toggle -->
+							  <div class="toggle-border">
+					        <input type="checkbox" id="two" checked="checked"/>
+					        <label for="two">
+					          <div class="handle"></div>
+					        </label>
+					      </div> 
+					      <!-- radio toggle -->
+							</div>
+						</div>
+					<div class="table_row">
+						<div class="table_cell p">Hour change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Day change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Week change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Month change</div>
+						<div class="table_cell green_color">+266%</div>
+					</div>
+				</div>
+			</div> <!-- second block Litecoin -->
+
+			<div class="block bitcoin">
+				<div class="table">
+					<div class="table_row">
+						<div class="table_cell price">Price:</div>
+						<div class="table_cell price_coast">22 526.92</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell percent">Percent change</div>
+							<div class="table_cell switch">
+							  <!-- radio toggle -->
+							  <div class="toggle-border">
+					        <input type="checkbox" id="three" />
+					        <label for="three">
+					          <div class="handle"></div>
+					        </label>
+					      </div> 
+					      <!-- radio toggle -->
+							</div>
+						</div>
+					<div class="table_row">
+						<div class="table_cell p">Hour change</div>
+						<div class="table_cell green_color">+26$</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Day change</div>
+						<div class="table_cell red_color">-20$</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Week change</div>
+						<div class="table_cell green_color">+26$</div>
+					</div>
+					<div class="table_row">
+						<div class="table_cell p">Month change</div>
+						<div class="table_cell green_color">+26$</div>
+					</div>
+				</div>
+			</div>  <!-- third block Bitcoin -->
+		</div> <!-- my_row -->
+	</div> <!-- my_container -->
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		// выпадающее меню вверху 
+		$('.select').on('click','.placeholder',function(){
+		  var parent = $(this).closest('.select');
+		  if ( ! parent.hasClass('is-open')){
+		    parent.addClass('is-open');
+		    $('.select.is-open').not(parent).removeClass('is-open');
+		  }else{
+		    parent.removeClass('is-open');
+		  }
+		}).on('click','ul>li',function(){
+		  var parent = $(this).closest('.select');
+		  parent.removeClass('is-open').find('.placeholder').text( $(this).text() );
+		  parent.find('input[type=hidden]').attr('value', $(this).attr('data-value') );
+		});
+		// выпадающее меню вверху
+	</script>
+</body>
+</html>
