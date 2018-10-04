@@ -22,4 +22,8 @@ describe('HeroDetailComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  goBack(): void {
+    this.location.back();
+  }
 });
