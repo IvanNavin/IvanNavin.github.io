@@ -1,0 +1,44 @@
+@font-face {
+  font-family: 'SegoeWP';
+  src: url('../font/SegoeWP-Light/SegoeWP-Light.eot');
+  src: url('../font/SegoeWP-Light/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/SegoeWP-Light/SegoeWP-Light.woff2') format('woff2'),
+       url('../font/SegoeWP-Light/SegoeWP-Light.woff') format('woff'),
+       url('../font/SegoeWP-Light/SegoeWP-Light.ttf')  format('truetype'),
+       url('../font/SegoeWP-Light/SegoeWP-Light.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SourceSansPro';
+  src: url('../font/SourceSansPro-Regular/SourceSansPro-Regular.eot');
+  src: url('../font/SourceSansPro-Regular/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/SourceSansPro-Regular/SourceSansPro-Regular.woff2') format('woff2'),
+       url('../font/SourceSansPro-Regular/SourceSansPro-Regular.woff') format('woff'),
+       url('../font/SourceSansPro-Regular/SourceSansPro-Regular.ttf')  format('truetype'),
+       url('../font/SourceSansPro-Regular/SourceSansPro-Regular.svg#svgFontName') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SegoeWPN-Light';
+  src: url('../font/SegoeWPN-Light/SegoeWPN-Light.eot');
+  src: url('../font/SegoeWPN-Light/SegoeWPN-Light.eot?#iefix') format('embedded-opentype'),
+       url('../font/SegoeWPN-Light/SegoeWPN-Light.woff2') format('woff2'),
+       url('../font/SegoeWPN-Light/SegoeWPN-Light.woff') format('woff'),
+       url('../font/SegoeWPN-Light/SegoeWPN-Light.ttf')  format('truetype'),
+       url('../font/SegoeWPN-Light/SegoeWPN-Light.svg#svgFontName') format('svg');
+  font-weight: normal; 
+  font-style: normal; 
+}
+@font-face {
+  font-family: 'SegoeWPN-Regular';
+  src: url('../font/SegoeWPN-Regular/SegoeWPN-Regular.eot');
+  src: url('../font/SegoeWPN-Regular/SegoeWPN-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../font/SegoeWPN-Regular/SegoeWPN-Regular.woff2') format('woff2'),
+       url('../font/SegoeWPN-Regular/SegoeWPN-Regular.woff') format('woff'),
+       url('../font/SegoeWPN-Regular/SegoeWPN-Regular.ttf')  format('truetype'),
+       url('../font/SegoeWPN-Regular/SegoeWPN-Regular.svg#svgFontName') format('svg');
+  font-weight: normal; 
+  font-style: normal; 
+}

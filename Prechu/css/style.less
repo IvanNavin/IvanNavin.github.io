@@ -1,0 +1,219 @@
+/* Colors*/
+@nav: #6c6c6c;
+@text: #909090;
+@logo: #5094f2;
+@h: #6f7173;
+@light: #fff;
+@black: #000;
+@btn: #4f95f2;
+@red: #d94748;
+@yellow: #ebbb11;
+@line: #e5e5e5;
+
+/*Basic setting*/
+html {
+  font-size: 10px;
+}
+
+/*Navigation*/
+body {
+  background-color: @light;
+}
+.navbar {
+  .container {
+    position: relative;
+    width: 1024px;
+    padding: 24px 34px 14px;
+  }
+  &-brand {
+    margin-left: 15px !important;
+    padding: 0;
+  }
+  h1 {
+    // position: absolute;
+    // left: 105px;
+    // margin-top: 0 ;
+    font-family: 'SegoeWP';
+    font-size: 4.235rem;
+    font-weight: 300;
+    color: @black;
+  }
+  .collapse {
+    margin-left: 50%;
+  }
+  &-nav {
+    font-family: 'SegoeWPN-Regular';
+    font-size: 2.035rem;
+    font-weight: 400;
+    color: @nav !important;
+  }
+} 
+// .navbar-light .navbar-nav .nav-link {
+  // color: @nav !important;
+  // transform: scaleX(1);
+// }
+// .navbar-light .navbar-nav .nav-link::before {
+//   content: '';
+//   bottom: -5px;
+//   left: 0;
+//   position: absolute;
+//   width: 80px;
+//   height: 3px;
+//   background-color: @logo;
+//   transition: 0.2s;
+//   transform: scaleX(0);
+// }
+// li a:hover:before, 
+// li a:focus:before {
+//   transform: scaleX(1);
+// }
+/*Navigation end*/ 
+
+/*Baner*/ 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+.carousel {
+  .f {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  @light;
+    font-family: 'SegoeWP';
+    .r {
+      h5{
+        font-size: 4.235rem;
+        font-weight: 300;
+        line-height: 1.049;
+        text-align: left;
+      }
+      p {
+        font-size: 2.635rem;
+        font-weight: 300;
+        line-height: 1.686;
+        text-align: left;
+      }
+      button {
+        margin-top: 34px;
+        margin-left: 12px;
+        float: left;
+        display: inline-block;
+        font-family: SegoeWP;
+        font-size: 2.235rem;
+        font-weight: 300;
+        padding: 9px 11px;
+        background-color: @btn;
+        border: none;
+        cursor: pointer;
+        img {
+          margin-right: 11px;
+        }
+      }
+    }
+  }
+  &-control-prev-icon {
+    background: url(../img/left.png);
+    height: 60px;
+  }
+  &-control-next-icon {
+    background: url(../img/right.png);
+    width: 25px;
+    height: 60px;
+  }
+}
+/*Baner end*/ 
+
+/*Contrary section*/ 
+.contrary {
+  margin-top: 63px;
+  font-family: 'SegoeWPN-Regular';
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 58px;
+  }
+  .col-4 {
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  h6 {
+    color: @logo;
+    font-size: 2.035rem;
+    font-weight: 400;
+    line-height: 2.183;
+    text-align: center;
+  }
+  p {
+    color:  @text;
+    font-size: 1.435rem;
+    font-weight: 400;
+    text-align: center;
+  }
+  
+}
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 13px;
+}
+.circle {
+  border-radius: 100%;
+  width: 186px;
+  height: 186px;
+  position: relative;
+}
+.pic {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+/*Contrary section end*/ 
+
+/*Cart begin*/ 
+.cart {
+  padding-bottom: 50px;
+  h4 {
+    font-family: 'SegoeWPN-Regular';
+    font-size: 4.235rem;
+    font-weight: 400;
+    color: @h;
+    margin-bottom: 33px;
+    text-align: center;
+  }
+  .p {
+    padding-left: 42px;
+  }
+  h6 {
+    font-family: 'SegoeWPN-Regular';
+    font-size: 2.635rem;
+    font-weight: 400;
+    color: @h;
+    margin-bottom: 34px;
+  }
+  p {
+    font-family: 'SegoeWPN-Light';
+    font-size: 1.535rem;
+    font-weight: 300;
+    color: @text;
+  }
+}
+/*Cart end*/ 
+/*Footer*/
+footer {
+  height: 94px;
+  border-top: 1px solid @line;
+  span {
+    font-family: 'SegoeWPN-Light';
+    font-size: 1.535rem;
+    font-weight: 300;
+    color: @text;
+    line-height: 94px;
+  }
+}
+/*Footer*/  
