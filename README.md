@@ -23,5 +23,12 @@
     * Слайдеры написаны без плагинов и библиотек
     * Есть админка  
 * Учусь работать с JS Date [Birth](https://ivannavin.github.io/birth/)
+   Используемые техники:  
+    * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
+    * HTML
+    * CSS
+    * JS
+    * Резиновая вёрстка
+    * Флекс вёрстка
 * Сверстал макет за 1 день и ещё 1 день добавлял анимацию и адаптацию [Creative Digital](https://ivannavin.github.io/creativedigital/)
 * Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
