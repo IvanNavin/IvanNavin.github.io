@@ -44,3 +44,9 @@
     * Блочная вёрстка
     * Флекс вёрстка
 * Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
+    * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
+    * HTML
+    * CSS
+    * Чистый JS 
+    * Резиновая вёрстка
+    * Флекс вёрстка
