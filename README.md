@@ -50,3 +50,19 @@
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
+* Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
+    * Visual Studio Code
+    * HTML
+    * CSS (bootstrap4 Animate.css)
+    * Модальное окно
+    * Less
+    * JS (Jquery Wow.JS)
+    * Node.js
+    * Gulp
+    * Git
+    * GitHub
+    * Адаптивная вёрстка
+    * Резиновая вёрстка
+    * Блочная вёрстка
+    * Флекс вёрстка  
+    
