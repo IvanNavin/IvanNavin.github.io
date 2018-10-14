@@ -7,7 +7,7 @@
     * Sublime Text 3
     * HTML
     * CSS
-    * JS
+    * JS (JQuery)
     * PHP
     * Git
     * GitHub
@@ -27,8 +27,20 @@
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
     * CSS
-    * JS
+    * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
 * Сверстал макет за 1 день и ещё 1 день добавлял анимацию и адаптацию [Creative Digital](https://ivannavin.github.io/creativedigital/)
+   Используемые техники:  
+    * Sublime Text 3
+    * HTML
+    * CSS (animate.css)
+    * JS (wow.js JQuery)
+    * Git
+    * GitHub
+    * Адаптивная вёрстка
+    * Кросбраузерная вёрстка
+    * Резиновая вёрстка
+    * Блочная вёрстка
+    * Флекс вёрстка
 * Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
