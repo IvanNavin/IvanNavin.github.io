@@ -6,7 +6,7 @@
   <title>Prechu</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" /> -->
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" type="text/css" href="css/style.css" />
 </head>
 <body>
@@ -15,11 +15,11 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
     <a class="navbar-brand" href="#"><img src="img/logo.png" alt="Logo-Prechu"></a>
-    <h1 class="navbar-brand">Prechu</h1>
+    <h1 class="navbar-brand">Wow</h1>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <nav class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav align-self-end">
         <li class="nav-item">
           <a class="nav-link" href="#">Home</a>
@@ -34,33 +34,32 @@
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
-    </div>
+    </nav>
   </div>
 </nav>
 <!-- Navigation -->
-
 <!-- Baner -->
 <div class="container-fluid">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item p1 active">
           <img class="d-block w-100" src="img/bg.jpg" alt="First slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block"> 
             <div class="f">
-              <img src="img/iphone.png" alt="iphone">
+              <img class="iphone" src="img/iphone.png" alt="iphone">
               <div class="r">
                 <h5>Lorem Ipsum is simply</h5>
                 <p>dummy text of the<br>printing & typesetting </p>
-                <button><img src="img/ok.png" alt="ok">Sign up now</button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever=""><img src="img/ok.png" alt="ok">Sign up now</button>
               </div>
             </div>
           </div>
         </div>
         <div class="carousel-item p2">
           <img class="d-block w-100" src="img/bg.jpg" alt="Second slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block"> 
             <div class="f">
-              <img src="img/iphone.png" alt="iphone">
+              <img class="iphone" src="img/iphone.png" alt="iphone">
               <div class="r">
                 <h5>Lorem Ipsum is simply</h5>
                 <p>dummy text of the<br>printing & typesetting </p>
@@ -71,9 +70,9 @@
         </div>
         <div class="carousel-item p3">
           <img class="d-block w-100" src="img/bg.jpg" alt="Third slide">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-md-block"> 
             <div class="f">
-              <img src="img/iphone.png" alt="iphone">
+              <img class="iphone" src="img/iphone.png" alt="iphone">
               <div class="r">
                 <h5>Lorem Ipsum is simply</h5>
                 <p>dummy text of the<br>printing & typesetting </p>
@@ -99,39 +98,42 @@
   <div class="row">
     <div class="col-4">
       <div class="cell">
-        <img class="circle" src="img/blue.png" alt="circle">
-        <img class="pic" src="img/pen.png" alt="pen">
+        <img class="circle wow flip" data-wow-delay=".2s" src="img/1.png" alt="circle">
       </div>
-      <h6>Contrary to popular</h6>
-      <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      <div class="pop">
+        <h6>Contrary to popular</h6>
+        <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      </div>
     </div>
     <div class="col-4">
       <div class="cell">
-        <img class="circle" src="img/red.png" alt="circle">
-        <img class="pic" src="img/monitor.png" alt="monitor">
+        <img class="circle wow flip" data-wow-delay=".3s" src="img/2.png" alt="circle">
       </div>
-      <h6>Contrary to popular</h6>
-      <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      <div class="pop">
+        <h6>Contrary to popular</h6>
+        <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      </div>
     </div>
     <div class="col-4">
       <div class="cell">
-        <img class="circle" src="img/yellow.png" alt="circle">
-        <img class="pic" src="img/cart0.png" alt="cart">
+        <img class="circle wow flip" data-wow-delay=".4s" src="img/3.png" alt="circle">
       </div>
-      <h6>Contrary to popular</h6>
-      <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      <div class="pop">
+        <h6>Contrary to popular</h6>
+        <p>Lorem Ipsum is not simply random text. It has roots in a piece </p>
+      </div>
     </div>
   </div>
 </section>
 <!-- Contrary end -->
 <!-- Cart begin -->
 <section class="container cart">
-  <div class="row justify-content-around align-items-center">
-    <div class="col-4">
+  <div class="row">
+    <div class="col-md-4 col-sm-12 ">
       <h4>The Shopping cart</h4>
-      <img src="img/cart.png" alt="cart">
+      <img class="m" src="img/cart.png" alt="cart">
     </div>
-    <div class="col-6 p">
+    <div class="col-md-6 col-sm-12 p">
       <h6>Some Bullet text here</h6>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting<br>
         Lorem Ipsum has been the industry's standard dummy text ever<br>
@@ -144,7 +146,6 @@
   </div>
 </section>
 <!-- Cart end -->
-
 <!-- Footer begin -->
 <footer class="container-fluid">
 <div class="row justify-content-center">
@@ -153,9 +154,41 @@
 </footer>
 <!-- Footer end -->
 
+<!-- Modal window -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Message</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="form-group">
+              <label for="recipient-name" class="col-form-label">Email:</label>
+              <input type="text" class="form-control" id="recipient-name">
+            </div>
+            <div class="form-group">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Modal window -->
 
+<!-- Scripts -->
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/wow.min.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>

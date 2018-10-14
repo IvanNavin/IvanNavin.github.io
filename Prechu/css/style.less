@@ -1,4 +1,14 @@
-/* Colors*/
+/*Navigation on css:
+1.Colors
+2.Basic setting
+3.Navigation
+4.Baner
+5.Contrary block
+6.Cart block
+7.Footer
+8.Media*/ 
+
+/* 1.Colors*/
 @nav: #6c6c6c;
 @text: #909090;
 @logo: #5094f2;
@@ -10,12 +20,12 @@
 @yellow: #ebbb11;
 @line: #e5e5e5;
 
-/*Basic setting*/
+/*2.Basic setting*/
 html {
   font-size: 10px;
 }
 
-/*Navigation*/
+/*3.Navigation*/
 body {
   background-color: @light;
 }
@@ -23,7 +33,7 @@ body {
   .container {
     position: relative;
     width: 1024px;
-    padding: 24px 34px 14px;
+    // padding: 24px 34px 14px;
   }
   &-brand {
     margin-left: 15px !important;
@@ -69,7 +79,7 @@ body {
 // }
 /*Navigation end*/ 
 
-/*Baner*/ 
+/*4.Baner*/ 
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
@@ -81,29 +91,29 @@ body {
     align-items: center;
     color:  @light;
     font-family: 'SegoeWP';
+    font-weight: 300;
+    .iphone {
+      width: 27vw;
+    }
     .r {
+      text-align: left;
       h5{
-        font-size: 4.235rem;
-        font-weight: 300;
+        font-size: 4.235vw;
         line-height: 1.049;
-        text-align: left;
       }
       p {
-        font-size: 2.635rem;
-        font-weight: 300;
+        font-size: 2.635vw;
         line-height: 1.686;
-        text-align: left;
       }
       button {
         margin-top: 34px;
         margin-left: 12px;
-        float: left;
         display: inline-block;
-        font-family: SegoeWP;
-        font-size: 2.235rem;
-        font-weight: 300;
+        font-family: 'SegoeWP';
+        font-size: 2.235vw;
         padding: 9px 11px;
         background-color: @btn;
+        color: @light;
         border: none;
         cursor: pointer;
         img {
@@ -124,7 +134,7 @@ body {
 }
 /*Baner end*/ 
 
-/*Contrary section*/ 
+/*5.Contrary section*/ 
 .contrary {
   margin-top: 63px;
   font-family: 'SegoeWPN-Regular';
@@ -138,46 +148,46 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-  }
-  h6 {
-    color: @logo;
-    font-size: 2.035rem;
-    font-weight: 400;
-    line-height: 2.183;
-    text-align: center;
-  }
-  p {
-    color:  @text;
-    font-size: 1.435rem;
-    font-weight: 400;
-    text-align: center;
+    .cell {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      margin-bottom: 13px;
+      .circle {
+        border-radius: 100%;
+        width: 186px;
+        height: 186px;
+        position: relative;
+      }
+    }
+    .pop {
+      h6 {
+        color: @logo;
+        font-size: 2.035rem;
+        font-weight: 400;
+        line-height: 2.183;
+        text-align: center;
+      }
+      p {
+        color:  @text;
+        font-size: 1.435rem;
+        font-weight: 400;
+        text-align: center;
+      }
+    }
   }
   
 }
-.cell {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  margin-bottom: 13px;
-}
-.circle {
-  border-radius: 100%;
-  width: 186px;
-  height: 186px;
-  position: relative;
-}
-.pic {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-}
 /*Contrary section end*/ 
 
-/*Cart begin*/ 
+/*6.Cart begin*/ 
 .cart {
   padding-bottom: 50px;
+  .row {
+    justify-content: space-around;
+    align-items: center;
+  }
   h4 {
     font-family: 'SegoeWPN-Regular';
     font-size: 4.235rem;
@@ -204,7 +214,7 @@ body {
   }
 }
 /*Cart end*/ 
-/*Footer*/
+/*7.Footer*/
 footer {
   height: 94px;
   border-top: 1px solid @line;
@@ -216,4 +226,71 @@ footer {
     line-height: 94px;
   }
 }
-/*Footer*/  
+/*Footer*/
+
+/*8.Media*/ 
+@media screen and (max-width: 640px) {
+  /*Navigation*/
+  .navbar {
+    padding: 0;
+    .container{
+      line-height: 1;
+      padding: 22px 30px 15px;
+      .navbar-brand {
+        margin: 0;
+      }
+    }
+    .collapse {
+      margin-left: 0;
+    }
+  }
+  /*Navigation*/
+  /*Baner*/
+  .carousel {
+    margin-top: 82px;
+    .f{
+      .r {
+        button {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  /*Baner*/
+  /*Contrary*/
+  .contrary {
+    .row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      .col-4 {
+        // justify-content: center;
+        .cell {
+          align-self: center;
+          .circle {
+            width: 21vw;
+            height: 21vw;
+          }
+          .pic {
+            width: 9vw;
+            height: 10vw;
+          }
+        }
+      }
+    }
+  }
+  /*Contrary*/ 
+  /*Cart*/
+  .cart {
+    .row {
+      flex-direction: column;
+      text-align: center;
+      .m {
+        width: 215px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  /*Cart*/
+}
