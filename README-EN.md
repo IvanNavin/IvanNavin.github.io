@@ -14,11 +14,11 @@ Portfolio
     * PHP
     * Git
     * GitHub
-    * Adaptive layout
-    * Cross-browser layout
-    * Responsive layout
-    * Div-s layout
-    * Flexbox layout
+    * Adaptive Design
+    * Cross-browser Design
+    * Responsive Design
+    * Div-s Design
+    * Flexbox Design
     * Valid layout (W3C)
     * High speed site loading
     * Submission form is worked
@@ -31,8 +31,8 @@ Portfolio
     * HTML
     * CSS
     * Clean JS 
-    * Responsive layout
-    * Flexbox layout
+    * Responsive Design
+    * Flexbox Design
 * ## I made a layout for 1 day and another 1 day added animation and adaptation of [Creative Digital](https://ivannavin.github.io/creativedigital/)
    Used equipment:  
     * Sublime Text 3
@@ -41,19 +41,19 @@ Portfolio
     * JS (wow.js JQuery)
     * Git
     * GitHub
-    * Adaptive layout
-    * Cross-browser layout
-    * Responsive layout
-    * Div-s layout
-    * Flexbox layout
+    * Adaptive Design
+    * Cross-browser Design
+    * Responsive Design
+    * Div-s Design
+    * Flexbox Design
 * ## Play with JS [Калькулятор](https://ivannavin.github.io/calculator/)
    Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
     * CSS
     * Clean JS 
-    * Responsive layout
-    * Flexbox layout
+    * Responsive Design
+    * Flexbox Design
 * ## Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
    Используемые техники:  
     * Visual Studio Code
@@ -66,8 +66,8 @@ Portfolio
     * Gulp
     * Git
     * GitHub
-    * Adaptive layout
-    * Cross-browser layout
-    * Responsive layout
-    * Div-s layout
-    * Flexbox layout
+    * Adaptive Design
+    * Cross-browser Design
+    * Responsive Design
+    * Div-s Design
+    * Flexbox Design
