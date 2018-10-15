@@ -33,7 +33,7 @@ Portfolio
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ## I made a layout for 1 day and another 1 day added animation and adaptation of [Creative Digital](https://ivannavin.github.io/creativedigital/)
+* ## I made a site for 1 day and another 1 day added animation and adaptation of [Creative Digital](https://ivannavin.github.io/creativedigital/)
    Used technology:  
     * Sublime Text 3
     * HTML
