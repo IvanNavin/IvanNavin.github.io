@@ -31,7 +31,7 @@ Portfolio
     * Smooth Scrolling when clicking on anchors
     * Sliders are written without plug-ins and libraries 
     * There is an admin panel  
-* Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
+* ## Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
