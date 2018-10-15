@@ -70,5 +70,4 @@ Portfolio
     * Cross-browser layout
     * Responsive layout
     * Div-s layout
-    * Flexbox layout  
-    
+    * Flexbox layout
