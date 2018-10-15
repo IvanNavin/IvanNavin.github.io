@@ -12,7 +12,7 @@
 
 ***
 
-* ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
+1. ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
    Used technology:  
     * Sublime Text 3  
@@ -33,7 +33,7 @@
     * Smooth Scrolling when clicking on anchors
     * Sliders are written without plug-ins and libraries 
     * There is an admin panel  
-* ### Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
+2. ### Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
@@ -41,7 +41,7 @@
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ### [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
+3. ### [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
    Used technology:  
     * Sublime Text 3
     * HTML
@@ -54,7 +54,7 @@
     * Responsive Design
     * Div-s Design
     * Flexbox Design
-* ### Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
+4. ### Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
@@ -62,7 +62,7 @@
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ### Made site [Prechu](https://ivannavin.github.io/Prechu/)
+5. ### Made site [Prechu](https://ivannavin.github.io/Prechu/)
    Used technology:  
     * Visual Studio Code
     * HTML
