@@ -1,18 +1,19 @@
 # Головко Иван Викторович
-Портфолио
+## Портфолио
 
 
 **Русский**/*[English](https://ivannavin.github.io/README-EN)*
 
-## **Содержание**
+### **Содержание**
 1. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
 4. [Калькулятор](https://ivannavin.github.io/calculator/)
 5. [Prechu](https://ivannavin.github.io/Prechu/)
 
+___
 
-1. ## Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
+1. ### Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
    Видеопрезентация [Тут](https://youtu.be/_rBsQR_H3_w)  
    Используемые техники:  
     * Sublime Text 3  
@@ -33,7 +34,7 @@
     * Smooth Scrolling при нажатии на якоря
     * Слайдеры написаны без плагинов и библиотек
     * Есть админка  
-2. ## Учусь работать с JS Date [Birth](https://ivannavin.github.io/birth/)
+2. ### Учусь работать с JS Date [Birth](https://ivannavin.github.io/birth/)
    Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
@@ -41,7 +42,7 @@
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
-3. ## [Creative Digital](https://ivannavin.github.io/creativedigital/) Сверстал Сайт за 1 день и ещё 1 день корректировал
+3. ### [Creative Digital](https://ivannavin.github.io/creativedigital/) Сверстал Сайт за 1 день и ещё 1 день корректировал
    Используемые техники:  
     * Sublime Text 3
     * HTML
@@ -54,7 +55,7 @@
     * Резиновая вёрстка
     * Блочная вёрстка
     * Флекс вёрстка
-4. ## Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
+4. ### Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
    Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
@@ -62,7 +63,7 @@
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
-5. ## Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
+5. ### Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
    Используемые техники:  
     * Visual Studio Code
     * HTML
