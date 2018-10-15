@@ -1,7 +1,7 @@
 # Golovko Ivan
 Portfolio
 
-*[Русский](https://github.com/IvanNavin/IvanNavin.github.io/blob/master/README.md)*/**English**
+*[Русский](https://ivannavin.github.io/)*/**English**
 
 
 * ## My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
