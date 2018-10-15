@@ -1,18 +1,18 @@
 # Golovko Ivan
-Portfolio
+## Portfolio
 
 *[Русский](https://ivannavin.github.io/)*/**English**
 
-## **Сontent**
+### **Сontent**
 1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
 4. [Сalculator](https://ivannavin.github.io/calculator/)
 5. [Prechu](https://ivannavin.github.io/Prechu/)
 
+***
 
-
-* ## My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
+* ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
    Used technology:  
     * Sublime Text 3  
@@ -33,7 +33,7 @@ Portfolio
     * Smooth Scrolling when clicking on anchors
     * Sliders are written without plug-ins and libraries 
     * There is an admin panel  
-* ## Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
+* ### Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
@@ -41,7 +41,7 @@ Portfolio
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ## [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
+* ### [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
    Used technology:  
     * Sublime Text 3
     * HTML
@@ -54,7 +54,7 @@ Portfolio
     * Responsive Design
     * Div-s Design
     * Flexbox Design
-* ## Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
+* ### Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
@@ -62,7 +62,7 @@ Portfolio
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ## Made site [Prechu](https://ivannavin.github.io/Prechu/)
+* ### Made site [Prechu](https://ivannavin.github.io/Prechu/)
    Used technology:  
     * Visual Studio Code
     * HTML
