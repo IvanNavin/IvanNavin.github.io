@@ -33,7 +33,7 @@ Portfolio
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-* ## [Creative Digital](https://ivannavin.github.io/creativedigital/)I made a site for 1 day and another 1 day corrected
+* ## [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
    Used technology:  
     * Sublime Text 3
     * HTML
