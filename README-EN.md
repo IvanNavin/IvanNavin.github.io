@@ -3,6 +3,12 @@ Portfolio
 
 *[Русский](https://ivannavin.github.io/)*/**English**
 
+## **Сontent**
+1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
+2. [Birth](https://ivannavin.github.io/birth/)
+3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
+4. [Сalculator](https://ivannavin.github.io/calculator/)
+5. [Prechu](https://ivannavin.github.io/Prechu/)
 
 * ## My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
@@ -46,7 +52,7 @@ Portfolio
     * Responsive Design
     * Div-s Design
     * Flexbox Design
-* ## Play with JS [Калькулятор](https://ivannavin.github.io/calculator/)
+* ## Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
