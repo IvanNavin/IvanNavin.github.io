@@ -33,7 +33,7 @@
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
-* ## Сверстал макет за 1 день и ещё 1 день добавлял анимацию и адаптацию [Creative Digital](https://ivannavin.github.io/creativedigital/)
+* ## [Creative Digital](https://ivannavin.github.io/creativedigital/)Сверстал Сайт за 1 день и ещё 1 день корректировал
    Используемые техники:  
     * Sublime Text 3
     * HTML
