@@ -7,7 +7,7 @@
 * ## Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
    Видеопрезентация [Тут](https://youtu.be/_rBsQR_H3_w)  
    Используемые техники:  
-    * Sublime Text 3
+    * Sublime Text 3  
     * HTML
     * CSS
     * JS (JQuery)
@@ -47,6 +47,7 @@
     * Блочная вёрстка
     * Флекс вёрстка
 * ## Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
+   Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
     * CSS
@@ -54,6 +55,7 @@
     * Резиновая вёрстка
     * Флекс вёрстка
 * ## Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
+   Используемые техники:  
     * Visual Studio Code
     * HTML
     * CSS (bootstrap4 Animate.css)
