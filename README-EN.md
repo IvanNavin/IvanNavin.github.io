@@ -7,7 +7,7 @@ Portfolio
 * ## My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
    Used technology:  
-    * Sublime Text 3
+    * Sublime Text 3  
     * HTML
     * CSS
     * JS (JQuery)
