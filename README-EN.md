@@ -3,6 +3,8 @@
 
 *[Русский](https://ivannavin.github.io/)*/**English**
 
+![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
+
 ### **Сontent**
 0. [Chalange](IvanNavin.github.io/bitcoin/) Test task for Forgrant
 1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
