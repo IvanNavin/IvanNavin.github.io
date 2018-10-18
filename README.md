@@ -4,6 +4,8 @@
 
 **Русский**/*[English](https://ivannavin.github.io/README-EN)*
 
+![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
+
 ### **Содержание**
 0. [Chalange](IvanNavin.github.io/bitcoin/) Тестовое задание для Форгрант
 1. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
