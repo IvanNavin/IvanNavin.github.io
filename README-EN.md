@@ -4,6 +4,7 @@
 *[Русский](https://ivannavin.github.io/)*/**English**
 
 ### **Сontent**
+0. [Chalange](IvanNavin.github.io/bitcoin/) Test task for Forgrant
 1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
@@ -12,6 +13,19 @@
 
 ***
 
+0. ### [Chalange](IvanNavin.github.io/bitcoin/) Test task for Forgrant
+   Used technology:  
+    * Visual Studio
+    * HTML5
+    * CSS3
+    * JS (JQuery)
+    * Git
+    * GitHub
+    * Div-s Design
+    * Flexbox Design
+    * Cross-browser Design
+    * Responsive Design
+    * Extract from API
 1. ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
    Used technology:  
