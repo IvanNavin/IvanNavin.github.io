@@ -5,6 +5,7 @@
 **Русский**/*[English](https://ivannavin.github.io/README-EN)*
 
 ### **Содержание**
+0. [Chalange](IvanNavin.github.io/bitcoin/) Тестовое задание для Форгрант
 1. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
@@ -13,6 +14,19 @@
 
 ___
 
+0. ### [Chalange](IvanNavin.github.io/bitcoin/) Тестовое задание для Форгрант
+   Используемые техники:  
+    * Visual Studio
+    * HTML5
+    * CSS3
+    * JS (JQuery)
+    * Git
+    * GitHub
+    * Блочная вёрстка
+    * Флекс вёрстка
+    * Кросбраузерная вёрстка
+    * Резиновая вёрстка
+    * Вытяжка из API
 1. ### Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
    Видеопрезентация [Тут](https://youtu.be/_rBsQR_H3_w)  
    Используемые техники:  
