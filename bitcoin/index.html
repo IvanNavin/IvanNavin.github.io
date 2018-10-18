@@ -1,10 +1,10 @@
+<!-- Убрал линк на иконки -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>Challange</title>
 </head>
@@ -105,7 +105,7 @@
 				<div class="table">
 					<div class="table_row">
 						<div class="table_cell price">Price:</div>
-						<div class="table_cell price_coast">22 526.92</div>
+						<div class="table_cell price_coast" id="btc">22 526.92</div>
 					</div>
 					<div class="table_row">
 						<div class="table_cell percent">Percent change</div>
@@ -142,7 +142,8 @@
 	</div> <!-- my_container -->
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="js/convert.js"></script>
 	<script>
 		// выпадающее меню вверху 
 		$('.select').on('click','.placeholder',function(){
