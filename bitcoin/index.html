@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<title>Challange</title>
 </head>
 <body>
@@ -13,9 +14,9 @@
 		<div class="my_head">
 			<h1>Select currency to exhange:</h1>
 		  <div class="select">
-		  	<span class="placeholder">USD</span>
+		  	<span class="placeholder" id="spn">USD</span>
 		  	<ul>
-		  	  <!-- <li data-value="USD">USD</li> -->
+		  	  <li data-value="USD">USD</li>
 		  	  <li data-value="EUR">EUR</li>
 		  	  <li data-value="RUB">RUB</li>
 		  	  <li data-value="GBP">GBP</li>
@@ -112,7 +113,7 @@
 							<div class="table_cell switch">
 							  <!-- radio toggle -->
 							  <div class="toggle-border">
-					        <input type="checkbox" id="three" />
+					        <input type="checkbox" id="three"/>
 					        <label for="three">
 					          <div class="handle"></div>
 					        </label>
@@ -122,19 +123,19 @@
 						</div>
 					<div class="table_row">
 						<div class="table_cell p">Hour change</div>
-						<div class="table_cell green_color">+26$</div>
+						<div class="table_cell" id="hbd">0$</div>
 					</div>
 					<div class="table_row">
 						<div class="table_cell p">Day change</div>
-						<div class="table_cell red_color">-20$</div>
+						<div class="table_cell" id="dbd">0$</div>
 					</div>
 					<div class="table_row">
 						<div class="table_cell p">Week change</div>
-						<div class="table_cell green_color">+26$</div>
+						<div class="table_cell" id="wbd">0$</div>
 					</div>
 					<div class="table_row">
 						<div class="table_cell p">Month change</div>
-						<div class="table_cell green_color">+26$</div>
+						<div class="table_cell" id="mbd">0$</div>
 					</div>
 				</div>
 			</div>  <!-- third block Bitcoin -->
