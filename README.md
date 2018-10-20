@@ -7,7 +7,7 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Содержание**
-0. [Chalange](IvanNavin.github.io/bitcoin/) Тестовое задание для Форгрант
+0. [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
 1. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
@@ -16,7 +16,7 @@
 
 ___
 
-0. ### [Chalange](IvanNavin.github.io/bitcoin/) Тестовое задание для Форгрант
+0. ### [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
    Используемые техники:  
     * Visual Studio
     * HTML5
