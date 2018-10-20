@@ -6,7 +6,7 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Сontent**
-0. [Chalange](IvanNavin.github.io/bitcoin/) Test task for Forgrant
+0. [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
 1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
 2. [Birth](https://ivannavin.github.io/birth/)
 3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
@@ -15,7 +15,7 @@
 
 ***
 
-0. ### [Chalange](IvanNavin.github.io/bitcoin/) Test task for Forgrant
+0. ### [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
    Used technology:  
     * Visual Studio
     * HTML5
