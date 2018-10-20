@@ -218,20 +218,17 @@ input[type="checkbox"]:checked + label > .handle {
 	float: right;
 	vertical-align: bottom;
 }
-.block .price_coast:before {
-	content: '$';
-}
 .green_color {
 	color: #70c446;
-	font-size: 16px;
-	float: right;
 	vertical-align: bottom;
 }
 .red_color {
 	color: #c80e24;
-	font-size: 16px;
-	float: right;
 	vertical-align: bottom;
+}
+.r {
+	float: right;
+	font-size: 16px;
 }
 
 /* Media */
