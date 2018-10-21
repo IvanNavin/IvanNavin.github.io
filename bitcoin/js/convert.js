@@ -155,4 +155,3 @@ $('.select').on('click','.placeholder',function(){
 	bhr.send();
 
 });
-
