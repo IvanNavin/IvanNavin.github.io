@@ -1,0 +1,238 @@
+/*******************************************/
+/*                 CONTENT                 */
+/* 1. Color                                */
+/* 2. Mixin                                */
+/* 2.1. .elips                             */
+/* 2.2. .str                               */
+/* 2.3. .centr                             */
+/* 3. Begin                                */
+/* 3.1. wrapper                            */
+/* 3.1.1. button (:before, :hover, :after) */
+/* 3.1.2. pagination                       */
+/* 3.1.2.1 paginator                       */
+/* 3.1.2.1.1 .elipse > .simvol ^ .active   */
+/* 3.1.2.2. <p> `Selected city`            */
+/* 3.2. @keyframes                         */
+/*                                         */
+/*                 The End                 */
+/*            Thanks for watching          */
+/*                                         */
+/*******************************************/
+
+
+/*Color*/
+@bg: #0d192c;
+@buttondrk: #1f5809;
+@button: #28700c;
+@buttonlight: #338e0f;
+@buttonlighten: #28720c;
+@border: #3faf13;
+@borderblack: #020210;
+@borderblue: #162951;
+@borederbluetwo: #152855; 
+@text-shadow: rgba(2, 22, 5, 0.81);
+@transparent: rgba(255,255,255, 0,25);
+@blue: #446b8f;
+@light: #fff;
+@black: #000;
+@elipse: #1a305b;
+@arow: #9ebded;
+@elipse_hover: #7bb71d;
+@yellow: #deff00;
+@shadow: rgba(31, 63, 63, 0.5);
+@linebg: #2d7d0d;
+@linebgtwo: #aeff34;
+@paginator: #414e63;
+@pagingrad: rgba(65, 78, 99, 0.8);
+@pagingradtwo: rgba(61, 69, 92, 0.8);
+@shadowpage: rgba(0, 0, 0, 0.62);
+@shadowpagetwo: rgba(255, 255, 255, 0.62);
+@shadowbox: #203b69;
+@shadowtext: rgb(45, 53, 78);
+@shadowtexttwo: rgb(68,107,143);
+@activel: #c0ff00;
+@activeligrad: #3a580f;
+@activeligradtwo: #629319;
+
+
+
+
+/*mixin*/
+.elips {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid @black;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0px 2px 0px 0px @shadow;
+  cursor: pointer;
+}
+.str {
+  font-family: "Helvetica-Bold", Helvetica;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-shadow: 0px 1px 2px @black;
+  position: relative;
+  bottom: 1px;
+}
+.centr {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+/*Begin*/
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  box-sizing: border-box;
+  user-select: none;
+}
+.wrapper {
+  .centr();
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  background-color: @bg;
+  color: @light;
+  button {
+    width: 18rem;
+    height: 4rem;
+    position: relative;
+    font-family: "ArialBold", Arial;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.018rem;
+    text-align: center;
+    text-shadow: 0px 2px 2px @text-shadow;
+    color: @light;
+    background: linear-gradient(0deg, @buttondrk 0%, 
+                @button 49%, 
+                @buttonlight 50%, 
+                @buttonlighten 100%);
+    border: 1px solid @border;
+    border-radius: 4px;
+    box-shadow:
+       0 0 0 2px @borderblack,
+       0 0 0 4px @borderblue,
+       0 0 0 5px @borderblack,
+       0 0 0 6px @borederbluetwo;
+    cursor: pointer;
+    &::before {
+      content: "РЕГИСТРАЦИЯ";
+      line-height: 1.9;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(ellipse at bottom, @yellow 0%,
+                  @transparent 100%),
+                  linear-gradient(0deg, @buttondrk 0%, 
+                  @button 49%, 
+                  @buttonlight 50%, 
+                  @buttonlighten 100%);
+      opacity: 0;
+      transition: all 1s;
+      animation: bttn 1s ease infinite; 
+    }
+    &:hover {
+      &::before {
+        padding-bottom: 2px;
+        opacity: 1;
+        transition: opacity 1s;
+      }
+    }
+    &::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to left, @linebg 0%,
+                  @linebgtwo 50%,
+                  @linebgtwo 50%,
+                  @linebg 100%);
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+    }
+  }
+  /*Paginator*/ 
+  .pagination {
+    .centr();
+    flex-direction: column;
+    .paginator {
+      .centr();
+      display: flex;
+      width: 142px;
+      height: 30px;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      background-color: @paginator;
+      background-image: repeating-linear-gradient(-45deg,
+                        @pagingrad 0px,
+                        @pagingrad 13px,
+                        @pagingradtwo 13px,
+                        @pagingradtwo 26px),
+                        linear-gradient(0deg,
+                        @shadowpage 0%,
+                        @shadowpagetwo 100%);
+      box-shadow: 0px 2px 0px 0px @shadow;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      .elipse {
+        .elips();
+        background-image: linear-gradient(180deg, @black 0%, transparent 100%);
+        box-shadow: inset 0px 0px 1px 1px @shadowbox;
+        .simvol {
+          .str();
+          color: @blue;
+          &::after{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(@shadowtext, @shadowtexttwo);
+            mix-blend-mode: darken;
+          }
+        }
+        &:active {
+          transform: scale(1); /* здесь просится 0.9*/ 
+        }
+      }
+      .active {
+        .elips();
+        background: @elipse_hover;
+        box-shadow: inset 0 0 1px 1px @activel;
+        background-image: linear-gradient(@activeligrad, @activeligradtwo);
+        color: @light;
+        .simvol {
+          .str();
+        }
+      }
+    }
+    p{
+      font-family: "ArialRegular", Arial;
+      font-size: 2.4rem;
+      font-weight: 400;
+      letter-spacing: 0.06rem;
+    }
+  }
+}
+
+@keyframes bttn {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+
+/*                 The End                 */
+/*            Thanks for watching          */

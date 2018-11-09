@@ -1,0 +1,42 @@
+[
+  {
+    "id": "01",
+    "city": "London"
+  },
+  {
+    "id": "02",
+    "city": "Tokio"
+  },
+  {
+    "id": "03",
+    "city": "Kyiv"
+  },
+  {
+    "id": "04",
+    "city": "New York"
+  },
+  {
+    "id": "05",
+    "city": "Paris"
+  },
+  {
+    "id": "06",
+    "city": "Madrid"
+  },
+  {
+    "id": "07",
+    "city": "Toronto"
+  },
+  {
+    "id": "08",
+    "city": "Mexico"
+  },
+  {
+    "id": "09",
+    "city": "Berlin"
+  },
+  {
+    "id": "10",
+    "city": "Amsterdam"
+  }
+]
