@@ -7,12 +7,12 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Содержание**
-*. [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
-*. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
-*. [Birth](https://ivannavin.github.io/birth/)
-*. [Creative Digital](https://ivannavin.github.io/creativedigital/)
-*. [Калькулятор](https://ivannavin.github.io/calculator/)
-*. [Prechu](https://ivannavin.github.io/Prechu/)
+* [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
+* [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
+* [Birth](https://ivannavin.github.io/birth/)
+* [Creative Digital](https://ivannavin.github.io/creativedigital/)
+* [Калькулятор](https://ivannavin.github.io/calculator/)
+* [Prechu](https://ivannavin.github.io/Prechu/)
 
 ___
 
