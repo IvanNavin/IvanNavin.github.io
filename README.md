@@ -7,6 +7,8 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Содержание**
+* [Poznan](https://ivannavin.github.io/poznan/) Тестовое задание лендинг
+* [Paginator](https://ivannavin.github.io/paginator/) Тестовое задание
 * [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
 * [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
 * [Birth](https://ivannavin.github.io/birth/)
@@ -16,9 +18,34 @@
 
 ___
 
+* ### [Poznan](https://ivannavin.github.io/poznan/) Тестовое задание лендинг
+   Используемые техники:  
+    * Visual Studio Code
+    * HTML5
+    * CSS3
+    * Git
+    * GitHub
+    * Блочная вёрстка
+    * Флекс вёрстка
+    * Кросбраузерная вёрстка
+    * Резиновая вёрстка
+    * Валидная вёрстка (W3C)
+* ### [Paginator](https://ivannavin.github.io/paginator/) Тестовое задание
+   Используемые техники:  
+    * Visual Studio Code
+    * HTML5
+    * CSS3
+    * JS 
+    * Git
+    * GitHub
+    * Блочная вёрстка
+    * Флекс вёрстка
+    * Кросбраузерная вёрстка
+    * Резиновая вёрстка
+    * Вытяжка из API
 * ### [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
    Используемые техники:  
-    * Visual Studio
+    * Visual Studio Code
     * HTML5
     * CSS3
     * JS (JQuery)
