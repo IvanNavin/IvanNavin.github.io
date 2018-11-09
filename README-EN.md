@@ -6,18 +6,33 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Сontent**
-0. [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
-1. [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
-2. [Birth](https://ivannavin.github.io/birth/)
-3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
-4. [Сalculator](https://ivannavin.github.io/calculator/)
-5. [Prechu](https://ivannavin.github.io/Prechu/)
+* [Poznan](https://ivannavin.github.io/poznan/) Test task lending
+* [Paginator](https://ivannavin.github.io/paginator/) Test task
+* [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
+* [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
+* [Birth](https://ivannavin.github.io/birth/)
+* [Creative Digital](https://ivannavin.github.io/creativedigital/)
+* [Сalculator](https://ivannavin.github.io/calculator/)
+* [Prechu](https://ivannavin.github.io/Prechu/)
 
 ***
 
-0. ### [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
+* ### [Poznan](https://ivannavin.github.io/poznan/) Test task lending
    Used technology:  
-    * Visual Studio
+    * Visual Studio Code
+    * HTML5
+    * CSS3
+    * Git
+    * GitHub
+    * Div-s Design
+    * Flexbox Design
+    * Cross-browser Design
+    * Responsive Design
+    * Extract from API
+    * Valid layout (W3C)
+* ### [Paginator](https://ivannavin.github.io/paginator/) Test task
+   Used technology:  
+    * Visual Studio Code
     * HTML5
     * CSS3
     * JS (JQuery)
@@ -28,7 +43,20 @@
     * Cross-browser Design
     * Responsive Design
     * Extract from API
-1. ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
+* ### [Chalange](https://ivannavin.github.io/bitcoin/) Test task for Forgrant
+   Used technology:  
+    * Visual Studio Code
+    * HTML5
+    * CSS3
+    * JS (JQuery)
+    * Git
+    * GitHub
+    * Div-s Design
+    * Flexbox Design
+    * Cross-browser Design
+    * Responsive Design
+    * Extract from API
+* ### My first work [Photographer Diana Bober](https://ivannavin.github.io/photographier/)
    Video presentation [here](https://youtu.be/_rBsQR_H3_w)  
    Used technology:  
     * Sublime Text 3  
@@ -49,7 +77,7 @@
     * Smooth Scrolling when clicking on anchors
     * Sliders are written without plug-ins and libraries 
     * There is an admin panel  
-2. ### Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
+* ### Learning to work with JS Date [Birth](https://ivannavin.github.io/birth/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
@@ -57,7 +85,7 @@
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-3. ### [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
+* ### [Creative Digital](https://ivannavin.github.io/creativedigital/) I made a site for 1 day and another 1 day corrected
    Used technology:  
     * Sublime Text 3
     * HTML
@@ -70,7 +98,7 @@
     * Responsive Design
     * Div-s Design
     * Flexbox Design
-4. ### Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
+* ### Play with JS [Сalculator](https://ivannavin.github.io/calculator/)
    Used technology:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
@@ -78,7 +106,7 @@
     * Clean JS 
     * Responsive Design
     * Flexbox Design
-5. ### Made site [Prechu](https://ivannavin.github.io/Prechu/)
+* ### Made site [Prechu](https://ivannavin.github.io/Prechu/)
    Used technology:  
     * Visual Studio Code
     * HTML
