@@ -18,7 +18,7 @@
 
 ___
 
-* ### [Poznan](https://ivannavin.github.io/poznan/) Тестовое задание лендинг
+* ### [Poznan](https://ivannavin.github.io/poznan/index.html/) Тестовое задание лендинг
    Используемые техники:  
     * Visual Studio Code
     * HTML5
