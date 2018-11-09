@@ -7,16 +7,16 @@
 ![Golovko-Ivan](https://avatars2.githubusercontent.com/u/43346266?s=460&v=4 "Golovko-Ivan")
 
 ### **Содержание**
-0. [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
-1. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
-2. [Birth](https://ivannavin.github.io/birth/)
-3. [Creative Digital](https://ivannavin.github.io/creativedigital/)
-4. [Калькулятор](https://ivannavin.github.io/calculator/)
-5. [Prechu](https://ivannavin.github.io/Prechu/)
+*. [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
+*. [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
+*. [Birth](https://ivannavin.github.io/birth/)
+*. [Creative Digital](https://ivannavin.github.io/creativedigital/)
+*. [Калькулятор](https://ivannavin.github.io/calculator/)
+*. [Prechu](https://ivannavin.github.io/Prechu/)
 
 ___
 
-0. ### [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
+* ### [Chalange](https://ivannavin.github.io/bitcoin/) Тестовое задание для Форгрант
    Используемые техники:  
     * Visual Studio
     * HTML5
@@ -29,7 +29,7 @@ ___
     * Кросбраузерная вёрстка
     * Резиновая вёрстка
     * Вытяжка из API
-1. ### Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
+* ### Моя первая работа [Фотограф Диана Бобер](https://ivannavin.github.io/photographier/)
    Видеопрезентация [Тут](https://youtu.be/_rBsQR_H3_w)  
    Используемые техники:  
     * Sublime Text 3  
@@ -50,7 +50,7 @@ ___
     * Smooth Scrolling при нажатии на якоря
     * Слайдеры написаны без плагинов и библиотек
     * Есть админка  
-2. ### Учусь работать с JS Date [Birth](https://ivannavin.github.io/birth/)
+* ### Учусь работать с JS Date [Birth](https://ivannavin.github.io/birth/)
    Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/BPwqdL)
     * HTML
@@ -58,7 +58,7 @@ ___
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
-3. ### [Creative Digital](https://ivannavin.github.io/creativedigital/) Сверстал Сайт за 1 день и ещё 1 день корректировал
+* ### [Creative Digital](https://ivannavin.github.io/creativedigital/) Сверстал Сайт за 1 день и ещё 1 день корректировал
    Используемые техники:  
     * Sublime Text 3
     * HTML
@@ -71,7 +71,7 @@ ___
     * Резиновая вёрстка
     * Блочная вёрстка
     * Флекс вёрстка
-4. ### Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
+* ### Играю с JS [Калькулятор](https://ivannavin.github.io/calculator/)
    Используемые техники:  
     * [Codepen.io](https://codepen.io/Tori4eli/pen/qygoRv)
     * HTML
@@ -79,7 +79,7 @@ ___
     * Чистый JS 
     * Резиновая вёрстка
     * Флекс вёрстка
-5. ### Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
+* ### Сверстал сайт [Prechu](https://ivannavin.github.io/Prechu/)
    Используемые техники:  
     * Visual Studio Code
     * HTML
