@@ -1,0 +1,544 @@
+/***********************************************/
+/*                  Content                    */
+/* 1. Color                                    */
+/* 2. Typografy                                */
+/* 3. Mixin                                    */
+/* 4. Begin                                    */
+/* 4.1. Header (H2, .social, .nav)             */
+/* 4.2. Main (H1, H3, .people)                 */
+/* 4.3. Container                              */
+/* 4.3.1 Sidebar (.about, .related, .courency) */
+/* 4.3.2 Content (&-slogan, &-posts, your add) */
+/* 4.4. #Map                                   */
+/* 4.5. Footer (H5, nav, .reserved)            */
+/*                                             */
+/*            Thank you for watching           */
+/*                   THE END                   */
+/***********************************************/
+/* Color */
+/* Typografy
+font-family: 'ArialBold';
+font-family: 'ArialItalic';
+font-family: 'ArialRegular';
+font-family: 'LeagueGothic';
+*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'LeagueGothic';
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #076e9f;
+}
+h1 {
+  font-size: 3.75rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.875rem;
+}
+h4 {
+  font-size: 1.375rem;
+}
+h5 {
+  font-size: 1rem;
+}
+p {
+  font-family: 'ArialRegular';
+  font-size: 0.625rem;
+  font-weight: 400;
+}
+/* Mixin */
+.btn {
+  padding: 2px 11px 1px;
+  background-image: linear-gradient(to top, #045279, #0883b1);
+  color: #ffffff;
+  font-family: 'ArialBold';
+  font-size: 0.625rem;
+  font-weight: 700;
+  line-height: 1.8;
+  border: 1px solid #045279;
+  text-shadow: #2a7497 1px 1px 2px, #2a7497 -1px -1px 2px, #2a7497 -1px 1px 2px, #2a7497 1px -1px 2px, rgba(0, 0, 0, 0.5) 0 -2px 2px;
+  box-shadow: inset rgba(255, 255, 255, 0.25) 0 2px, #22333c 0 1px, #384850 0 2px, #69757a 0 3px, rgba(214, 214, 214, 0.5) 0 5px;
+  position: relative;
+}
+.box {
+  position: relative;
+}
+.box:before,
+.box:after {
+  content: "";
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width: 400px;
+  background: rgba(0, 0, 0, 0.7);
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+  z-index: -1;
+  transform: rotate(-3deg);
+}
+.box:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+/* Begin */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 10px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 16px;
+  border-bottom: 3px solid #22aaec;
+}
+.header h2 {
+  margin-bottom: 8px;
+}
+.header h2 span {
+  color: #22aaec;
+}
+.header-social {
+  position: absolute;
+  top: 16px;
+  right: 30px;
+  display: inline-block;
+  list-style: none;
+}
+.header-social a {
+  margin: 3.5px;
+}
+.header .nav {
+  margin-bottom: 18px;
+}
+.header .nav a {
+  font-family: 'ArialRegular';
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #707070;
+  line-height: 1.8;
+  text-align: center;
+  margin: 0 21px;
+  position: relative;
+}
+.header .nav .active {
+  background-color: #045279;
+  padding: 5px 16px 4px;
+  color: #ffffff;
+}
+/*Header end*/
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url(../img/main-img@1X.jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  border-bottom: 3px solid #22aaec;
+}
+.main h1 {
+  margin: 93px auto;
+  margin-bottom: 19px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 17px 33px 16px;
+}
+.main h1 span {
+  color: #22aaec;
+}
+.main h3 {
+  margin: 0 auto;
+  margin-bottom: 77px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3px 11px 0;
+}
+.main h3 span {
+  color: #22aaec;
+}
+.main-people {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 25px;
+}
+.main-people-person {
+  display: flex;
+  width: 154px;
+  height: 69px;
+  padding-top: 8px;
+  padding-right: 4px;
+  padding-left: 50px;
+  padding-bottom: 5px;
+  background-color: #ffffff;
+  position: relative;
+}
+.main-people-person img {
+  position: absolute;
+  top: 0;
+  left: -36.5px;
+}
+.main-people-person-block {
+  text-align: left;
+  line-height: 14px;
+}
+.main-people-person-block-comment {
+  font-family: 'ArialItalic';
+  color: #515151;
+  font-size: 0.563rem;
+}
+.main-people-person-block-name {
+  font-family: 'ArialRegular';
+  color: #828282;
+  font-size: 0.563rem;
+}
+/*main*/
+.container {
+  display: inline-block;
+  position: relative;
+  /*sidebar*/
+}
+.container .sidebar {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 195px;
+  margin-left: 36px;
+  padding-top: 30px;
+  border-right: 1px dotted #d5d5d5;
+  border-bottom: 1px dotted #d5d5d5;
+  /*about*/
+  /*Related*/
+  /*currency*/
+}
+.container .sidebar .about {
+  padding-right: 25px;
+  padding-bottom: 17px;
+  border-bottom: 1px dotted #d5d5d5;
+}
+.container .sidebar .about p {
+  margin-top: 19px;
+  font-family: 'ArialRegular';
+  font-size: 0.625rem;
+  line-height: 1.8;
+}
+.container .sidebar .about p span {
+  font-family: 'ArialBold';
+  color: #076e9f;
+  font-size: 0.625rem;
+}
+.container .sidebar .related {
+  display: flex;
+  flex-direction: column;
+  padding-top: 17px;
+  padding-bottom: 27px;
+  border-bottom: 1px dotted #d5d5d5;
+}
+.container .sidebar .related .post {
+  display: flex;
+  margin-top: 11px;
+}
+.container .sidebar .related .post img {
+  width: 50px;
+  height: 40px;
+  margin-right: 19px;
+}
+.container .sidebar .related .post-block .head-post {
+  font-family: 'ArialBold';
+  color: #5c5c5c;
+  font-size: 0.625rem;
+  line-height: 1.8;
+}
+.container .sidebar .related .post-block .comment {
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  font-family: 'ArialItalic';
+  font-size: 0.625rem;
+  color: #5c5c5c;
+}
+.container .sidebar .related .post-block .comment img {
+  margin-right: 5px;
+  width: 16px;
+  height: 16px;
+}
+.container .sidebar .currency {
+  padding-top: 22px;
+  padding-bottom: 46px;
+}
+.container .sidebar .currency h4 {
+  margin-bottom: 12px;
+}
+.container .sidebar .currency table {
+  font-family: 'ArialRegular';
+  font-size: 0.625rem;
+}
+.container .sidebar .currency table tr th {
+  width: 40px;
+  height: 19px;
+  background: #076e9f;
+  color: #ffffff;
+  line-height: 1.8;
+}
+.container .sidebar .currency table tr td {
+  text-align: center;
+  background-color: #90d4f5;
+  color: #076e9f;
+  height: 19px;
+  line-height: 1.4;
+}
+.container .content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -11px;
+  /*slogan*/
+  /*posts*/
+  /*your-ad-here*/
+}
+.container .content-slogan {
+  border-top: 3px solid #22aaec;
+  border-right: 1px dotted #d5d5d5;
+  border-bottom: 1px dotted #d5d5d5;
+  margin-right: 35px;
+  background-color: #ffffff;
+  z-index: 10;
+  padding-top: 30px;
+  padding-left: 14px;
+}
+.container .content-slogan h2 {
+  margin-bottom: 19px;
+}
+.container .content-slogan-block {
+  display: flex;
+  margin-bottom: 30px;
+}
+.container .content-slogan-block .date-autor {
+  display: flex;
+  width: 115px;
+}
+.container .content-slogan-block .date-autor .date,
+.container .content-slogan-block .date-autor .autor {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 52px;
+  height: 52px;
+  font-family: 'ArialBold';
+  font-size: 0.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-repeat: no-repeat;
+}
+.container .content-slogan-block .date-autor .date {
+  background-image: url(../img/date.png);
+  margin-right: 10px;
+}
+.container .content-slogan-block .date-autor .autor {
+  background-image: url(../img/autor.png);
+}
+.container .content-slogan-block .text {
+  padding-left: 27px;
+  padding-right: 50px;
+  color: #5c5c5c;
+}
+.container .content-slogan-footer {
+  padding-left: 142px;
+  position: relative;
+  padding-bottom: 20px;
+}
+.container .content-slogan-footer .comment {
+  position: absolute;
+  top: 0;
+  right: -5px;
+  width: 180px;
+  height: 27px;
+  padding-top: 3px;
+  padding-right: 5px;
+  padding-left: 10px;
+  background-color: #90d4f5;
+  color: #076e9f;
+  font-family: 'ArialRegular';
+  line-height: 1.8;
+}
+.container .content-slogan-footer .comment::after {
+  content: "";
+  border-top: 5px solid #076e9f;
+  border-right: 5px solid transparent;
+  position: absolute;
+  right: 0px;
+  bottom: -5px;
+}
+.container .content-slogan-footer .comment p {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+.container .content-posts {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 18px;
+  margin-bottom: 28px;
+}
+.container .content-posts .new-post {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 13px;
+  padding-top: 26px;
+  background: #eaeaea;
+  border-top-left-radius: 10px;
+  width: 50%;
+  height: 215px;
+}
+.container .content-posts .new-post:nth-child(2n) {
+  margin-right: 35px;
+}
+.container .content-posts .new-post h4,
+.container .content-posts .new-post-date,
+.container .content-posts .new-post-text {
+  padding-left: 30px;
+}
+.container .content-posts .new-post-date p {
+  font-family: ArialRegular;
+  font-size: 0.625rem;
+  color: #878787;
+}
+.container .content-posts .new-post-date p .autor,
+.container .content-posts .new-post-date p .date {
+  color: #076e9f;
+}
+.container .content-posts .new-post-text {
+  padding-right: 22px;
+  padding-bottom: 9px;
+  color: #5c5c5c;
+}
+.container .content-posts .new-post-text a {
+  color: #076e9f;
+  text-decoration: none;
+}
+.container .content-posts .new-post-commentlike {
+  background: #f4f3f3;
+  height: 31px;
+  padding-right: 10px;
+  position: relative;
+}
+.container .content-posts .new-post-commentlike p {
+  line-height: 31px;
+  color: #076e9f;
+  text-align: right;
+}
+.container .content-posts .new-post-commentlike p img {
+  vertical-align: middle;
+  margin-left: 14px;
+}
+.container .content .your-ad-here {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 96%;
+  height: 81px;
+  margin-left: 13px;
+  margin-right: 35px;
+  background: #f4f3f3;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+  position: relative;
+}
+.container .content .your-ad-here:before,
+.container .content .your-ad-here:after {
+  content: "";
+  position: absolute;
+  bottom: 13px;
+  left: 5px;
+  width: 50%;
+  top: 80%;
+  max-width: 800px;
+  background: #000000;
+  box-shadow: 0 15px 5px #000000;
+  z-index: -1;
+  transform: rotate(-1deg);
+}
+.container .content .your-ad-here:after {
+  transform: rotate(1deg);
+  right: 5px;
+  left: auto;
+}
+.container .content .your-ad-here p {
+  color: #5c5c5c;
+}
+#map {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 77px;
+  border-top: 1px solid #bdbdbd;
+  border-bottom: 1px solid #bdbdbd;
+}
+#map h2 {
+  margin: 15px 36px;
+}
+.footer {
+  width: 100%;
+  height: 76px;
+  padding: 15px 35px 5px 30px;
+  border-top: 1px solid #bdbdbd;
+}
+.footer-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px dotted #d5d5d5;
+}
+.footer-nav h5 {
+  padding: 0px 5px 15;
+}
+.footer-nav h5 span {
+  color: #22aaec;
+}
+.footer-nav-menu a {
+  color: #707070;
+  font-family: 'ArialRegular';
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: auto 1.25rem;
+}
+.footer .reserv {
+  margin-top: 15px;
+  font-family: 'ArialRegular';
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+  line-height: 1.8;
+}
+/*@media 820 */
+/*@media 320 */
+/*   Thank you for watching   */
+/*          THE END           */
